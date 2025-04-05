@@ -1,0 +1,18 @@
+Task: Convert AP Statistics Unit 1 website to Unit 4
+Essential files:
+index.html: Main website to update - REPLACE all Unit 1 references with Unit 4
+urls-map.md: Contains all Unit 4 video links - USE this for video URLs
+pdf-map.txt: Maps Unit 4 PDF filenames - USE for filename references
+Key actions (in priority order):
+Change all Unit 1 text references to Unit 4 throughout index.html
+Update exam weight from 15-23% to 10-20%
+Update PDF paths from pdfs/unit1/1.X_quiz.pdf to pdfs/unit4/4.X_quiz.pdf
+Replace video links using exact URLs from urls-map.md
+Update the capstone section to include four parts (FRQ and MCQ parts A, B, C)
+Important notes:
+All PDF files ALREADY exist in pdfs/unit4/ directory
+MAINTAIN all existing functionality - only change content
+Unit 4 title: "Probability, Random Variables, and Probability Distributions"
+Reference (if needed):
+knowledge-tree.md: Shows complete AP Statistics curriculum structure
+Index-spec.json: Technical specification of website structure
