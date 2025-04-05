@@ -1,18 +1,16 @@
 LPS+ColsonR@LPS-5CD32865BG MINGW64 ~/Downloads/apstat/unit 4 (main)
 $ ls -lR
 .:
-total 293
--rw-r--r-- 1 LPS+ColsonR 4096  10886 Apr  4 09:32 Index-example-spec.json
--rw-r--r-- 1 LPS+ColsonR 4096 119907 Apr  4 09:24 index-example.html
--rw-r--r-- 1 LPS+ColsonR 4096  14285 Apr  2 19:11 index-spec.json
--rw-r--r-- 1 LPS+ColsonR 4096 106614 Apr  2 21:56 index.html
--rw-r--r-- 1 LPS+ColsonR 4096   6813 Apr  2 19:11 knowledge-tree.md
--rw-r--r-- 1 LPS+ColsonR 4096    823 Apr  2 19:11 ls-output.txt
--rw-r--r-- 1 LPS+ColsonR 4096   4253 Apr  2 19:11 pdf-map.txt
-drwxr-xr-x 1 LPS+ColsonR 4096      0 Apr  2 19:11 pdfs/
--rw-r--r-- 1 LPS+ColsonR 4096   5042 Apr  2 19:11 rename_pdfs.py
--rw-r--r-- 1 LPS+ColsonR 4096    169 Apr  2 19:11 tree-output.txt
--rw-r--r-- 1 LPS+ColsonR 4096   4384 Apr  2 19:11 urls-map.md
+total 172
+-rw-r--r-- 1 LPS+ColsonR 4096  10886 Apr  4 09:32  Index-example-spec.json
+-rw-r--r-- 1 LPS+ColsonR 4096    604 Apr  5 11:37 'claude-build.txt contains the files of thi'
+-rw-r--r-- 1 LPS+ColsonR 4096 119907 Apr  4 09:24  index-example.html
+-rw-r--r-- 1 LPS+ColsonR 4096   6813 Apr  2 19:11  knowledge-tree.md
+-rw-r--r-- 1 LPS+ColsonR 4096   2754 Apr  5 11:15  ls-output.txt
+-rw-r--r-- 1 LPS+ColsonR 4096   4253 Apr  2 19:11  pdf-map.txt
+drwxr-xr-x 1 LPS+ColsonR 4096      0 Apr  2 19:11  pdfs/
+-rw-r--r-- 1 LPS+ColsonR 4096   5042 Apr  2 19:11  rename_pdfs.py
+-rw-r--r-- 1 LPS+ColsonR 4096   4384 Apr  2 19:11  urls-map.md
 
 ./pdfs:
 total 12
