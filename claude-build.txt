@@ -1,18 +1,70 @@
-Task: Convert AP Statistics Unit 1 website to Unit 4
-Essential files:
-index.html: Main website to update - REPLACE all Unit 1 references with Unit 4
-urls-map.md: Contains all Unit 4 video links - USE this for video URLs
-pdf-map.txt: Maps Unit 4 PDF filenames - USE for filename references
-Key actions (in priority order):
-Change all Unit 1 text references to Unit 4 throughout index.html
-Update exam weight from 15-23% to 10-20%
-Update PDF paths from pdfs/unit1/1.X_quiz.pdf to pdfs/unit4/4.X_quiz.pdf
-Replace video links using exact URLs from urls-map.md
-Update the capstone section to include four parts (FRQ and MCQ parts A, B, C)
-Important notes:
-All PDF files ALREADY exist in pdfs/unit4/ directory
-MAINTAIN all existing functionality - only change content
-Unit 4 title: "Probability, Random Variables, and Probability Distributions"
-Reference (if needed):
-knowledge-tree.md: Shows complete AP Statistics curriculum structure
-Index-spec.json: Technical specification of website structure
+# Task: Convert AP Statistics Unit 4 website to Unit 5
+
+## Essential files to modify:
+- **index.html**: Main website to update from Unit 4 to Unit 5
+
+## Core changes (in order of importance):
+1. Change all Unit 4 references to Unit 5 throughout index.html
+2. Update exam weight from 10-20% to 12-18% for Unit 5
+3. Update PDF paths from `pdfs/unit4/4.X_quiz.pdf` to `pdfs/unit5/5.X_quiz.pdf`
+4. Replace video links using URLs from urls-map.md
+5. Update the capstone section with Unit 5's progress check components
+
+## Implementation guidance:
+Use the previous Unit 1→Unit 4 conversion as a template. Below is a sample of how that conversion was done:
+
+```diff
+diff --git a/index.html b/index.html
+index 122930..updated b/index.html
+--- a/index.html
++++ b/index.html
+@@ -5,7 +5,7 @@
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>AP Statistics Unit 1: Exploring One-Variable Data</title>
++    <title>AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions</title>
+     
+     <!-- Tailwind CSS -->
+     <script src="https://cdn.tailwindcss.com"></script>
+@@ -25,9 +25,9 @@
+ <body class="bg-gray-100 min-h-screen">
+     <div class="container mx-auto px-4 py-8">
+         <header class="text-center mb-8">
+-            <h1 class="text-3xl font-bold text-blue-600">AP Statistics Unit 1: Exploring One-Variable Data</h1>
++            <h1 class="text-3xl font-bold text-blue-600">AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions</h1>
+             <p class="text-gray-600 mt-2">Tools and guides to help you succeed in AP Statistics</p>
+-            <div class="mt-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-md inline-block">
+-                <span class="font-semibold">Exam Weight:</span> Unit 1 represents 15-23% of the AP Statistics Exam
++            <div class="mt-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-md inline-block">
++                <span class="font-semibold">Exam Weight:</span> Unit 4 represents 10-20% of the AP Statistics Exam
+             </div>
+         </header>
+```
+
+## For your Unit 4→Unit 5 conversion:
+- Follow the same pattern as the previous conversion
+- Replace all "4" with "5" in paths, IDs, and topic references
+- In the pdfFiles array, update all topic objects:
+  ```js
+  {
+      id: "4-1",  // Change to "5-1"
+      name: "Topic 4.1",  // Change to "Topic 5.1"
+      description: "...",  // Update with Unit 5 description 
+      // ... update videos and quizzes
+  }
+  ```
+- Update Unit 5 title to: "Sampling Distributions"
+
+## Important notes:
+- All PDF files should be placed in `pdfs/unit5/` directory using naming pattern `5.X_quiz.pdf`
+- MAINTAIN all existing functionality - only change content
+- Apply the same patterns throughout the entire file
+- For the JavaScript pdfFiles array, update all object IDs, names, descriptions, video URLs and PDF paths
+
+## Reference files:
+- **urls-map.md**: Contains all Unit 5 video links
+- **pdf-map.txt**: Maps Unit 5 PDF filenames
+- **knowledge-tree.md**: Shows complete AP Statistics curriculum structure
+
+## Expected result:
+A functioning Unit 5 AP Statistics website with all content properly updated from Unit 4, maintaining the same visual design and interactive functionality.
