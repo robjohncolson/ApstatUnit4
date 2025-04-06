@@ -1,0 +1,31 @@
+Objective: Convert the current AP Statistics Unit 3 `index.html` file into a functional `index.html` file for Unit 4 (Probability, Random Variables, and Probability Distributions), maintaining a self-contained, monolithic structure.
+
+Source File: `index.html` (The current file, containing Unit 3 code and data)
+Target File: `index.html` (This same file, to be modified for Unit 4)
+Reference Files (For YOUR manual data input later): `knowledge-tree.md`, `js/allUnitsData.js`, verify Unit 4 PDF paths in your `pdfs/unit4/` directory.
+
+Please perform the following modifications within this file:
+
+1.  **Update Unit ID Constant:**
+    *   Find the line: `const UNIT_ID = '3';`
+    *   Change it to: `const UNIT_ID = '4';`
+
+2.  **Update Static HTML Content:**
+    *   Change the `<title>` tag content from "Unit 3: Collecting Data" to: `AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions`.
+    *   Change the main `<h1>` heading content from "Unit 3: Collecting Data" to: `AP Statistics Unit 4: Probability, Random Variables, and Probability Distributions`.
+    *   Update the exam weight text (in the `div` with `bg-yellow-100`) to reflect Unit 4's weight (e.g., "Unit 4 represents 10-20% of the AP Statistics Exam", adjust % as needed based on your `UnitWeights.pdf` or syllabus).
+
+3.  **Prepare Topic Data Area for Manual Replacement:**
+    *   Locate the start of the `const pdfFiles = [` array definition (around line 980, currently holding Unit 3 data).
+    *   **Delete all the topic objects** currently inside the square brackets `[]`, from the first `{` representing Topic 3.1 down to the last `}` representing the Unit 3 capstone.
+    *   Leave the code as: `const pdfFiles = [ /* USER: PASTE UNIT 4 TOPIC DATA HERE */ ];`
+    *   *(Action Required By User (You): After Claude runs, you MUST manually paste the complete JavaScript array data for Unit 4's topics into this empty array definition. Ensure all topic `id`s are "4-n", `name`s are "Topic 4.n", descriptions match Unit 4, video URLs are correct for Unit 4, `quizId`s are "4-n_q1", and `questionPdf`/`answersPdf` paths correctly use `pdfs/unit4/`)*
+
+4.  **Verify Local Storage Key Usage:** (No change expected)
+    *   Confirm `loadTopicProgress` and `saveTopicProgress` use `UNIT_ID`.
+
+5.  **Verify Supabase `unit_id` Usage:** (No change expected)
+    *   Confirm `saveCompletionToSupabase` and `deleteCompletionFromSupabase` use `UNIT_ID`.
+
+**Summary of Manual Step:**
+The most important step **after** running this prompt is for **you** to manually populate the `const pdfFiles = []` array with the correct, complete topic data for **Unit 4**, ensuring all IDs, names, descriptions, video URLs, quiz IDs, and PDF paths (using `pdfs/unit4/`) are accurate for Unit 4.
