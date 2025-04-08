@@ -7,8 +7,8 @@ Do not modify allUnitsData.js.
 
 
 
-@index.html  is based on unit1 material, but the material we have is for unit 3.  @knowledge-tree.md 
+@index.html  is based on unit1 material, but the material we have is for unit 4.  @knowledge-tree.md 
 
-Please replace all references of Unit 1 to Unit3.
+Please replace all references of Unit 3 to Unit4.
 
-Unit 3's AP exam weight is 12-15%
+Unit 4's AP exam weight is 10-20%
