@@ -757,6 +757,31 @@ const ALL_UNITS_DATA = [
     current: false
   },
   {
+    id: "4-3",
+    name: "Topic 4.3",
+    description: "Introduction to Probability",
+    videos: [
+        {
+            url: "https://apclassroom.collegeboard.org/d/3naih8n3ar?sui=33,4",
+            altUrl: "https://drive.google.com/file/d/1eAYcRNceHy01t7bmARB3vtTDZnNNqmOV/view?usp=drive_link",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    quizzes: [
+        {
+            questionPdf: "pdfs/unit4/unit4_section4.3_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.3_answers.pdf",
+            quizId: "4-3_q1",
+            completed: false,
+            completionDate: null
+        }
+    ],
+    current: false
+},
+
+// Unit 4 Topic 4.4
+{
     id: "4-4",
     name: "Topic 4.4",
     description: "Mutually Exclusive Events",
@@ -770,16 +795,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.4_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.4_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.4_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.4_answers.pdf",
             quizId: "4-4_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.5
+{
     id: "4-5",
     name: "Topic 4.5",
     description: "Conditional Probability",
@@ -793,16 +820,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.5_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.5_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.5_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.5_answers.pdf",
             quizId: "4-5_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.6
+{
     id: "4-6",
     name: "Topic 4.6",
     description: "Independent Events and Unions of Events",
@@ -828,16 +857,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.6_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.6_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.6_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.6_answers.pdf",
             quizId: "4-6_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.7
+{
     id: "4-7",
     name: "Topic 4.7",
     description: "Introduction to Random Variables and Probability Distributions",
@@ -857,16 +888,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.7_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.7_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.7_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.7_answers.pdf",
             quizId: "4-7_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.8
+{
     id: "4-8",
     name: "Topic 4.8",
     description: "Mean and Standard Deviation of Random Variables",
@@ -880,16 +913,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.8_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.8_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.8_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.8_answers.pdf",
             quizId: "4-8_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.9
+{
     id: "4-9",
     name: "Topic 4.9",
     description: "Combining Random Variables",
@@ -909,16 +944,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.9_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.9_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.9_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.9_answers.pdf",
             quizId: "4-9_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.10
+{
     id: "4-10",
     name: "Topic 4.10",
     description: "Introduction to the Binomial Distribution",
@@ -932,16 +969,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.10_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.10_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.10_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.10_answers.pdf",
             quizId: "4-10_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.11
+{
     id: "4-11",
     name: "Topic 4.11",
     description: "Parameters for a Binomial Distribution",
@@ -955,16 +994,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.11_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.11_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.11_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.11_answers.pdf",
             quizId: "4-11_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Topic 4.12
+{
     id: "4-12",
     name: "Topic 4.12",
     description: "The Geometric Distribution",
@@ -984,16 +1025,18 @@ const ALL_UNITS_DATA = [
     ],
     quizzes: [
         {
-            questionPdf: "pdfs/unit4/4.12_quiz.pdf",
-            answersPdf: "pdfs/unit4/4.12_answers.pdf",
+            questionPdf: "pdfs/unit4/unit4_section4.12_quiz.pdf",
+            answersPdf: "pdfs/unit4/unit4_section4.12_answers.pdf",
             quizId: "4-12_q1",
             completed: false,
             completionDate: null
         }
     ],
     current: false
-  },
-  {
+},
+
+// Unit 4 Capstone
+{
     id: "4-capstone",
     name: "Unit 4 Progress Check",
     description: "Capstone Assessment",
@@ -1007,21 +1050,21 @@ const ALL_UNITS_DATA = [
             completionDate: null
         },
         {
-            questionPdf: "pdfs/unit4/unit4_pc_mcq_parta_quiz.pdf",
+            questionPdf: "pdfs/unit4/unit4_pc_mcq_parta_answers.pdf",
             answersPdf: null,
             quizId: "4-capstone_q2",
             completed: false,
             completionDate: null
         },
         {
-            questionPdf: "pdfs/unit4/unit4_pc_mcq_partb_quiz.pdf",
+            questionPdf: "pdfs/unit4/unit4_pc_mcq_partb_answers.pdf",
             answersPdf: null,
             quizId: "4-capstone_q3",
             completed: false,
             completionDate: null
         },
         {
-            questionPdf: "pdfs/unit4/unit4_pc_mcq_partc_quiz.pdf",
+            questionPdf: "pdfs/unit4/unit4_pc_mcq_partc_answers.pdf",
             answersPdf: null,
             quizId: "4-capstone_q4",
             completed: false,
@@ -1055,7 +1098,7 @@ const ALL_UNITS_DATA = [
         name: "Topic 5.2",
         description: "The Normal Distribution, Revisited",
         videos: [
-            {
+          {
                 url: "https://apclassroom.collegeboard.org/d/3ahfseusno?sui=33,5",
                 altUrl: "https://drive.google.com/file/d/1JFYjH0zXcPRk4Z18dTnbqWQLhu6IM_y3/view?usp=drive_link",
                 completed: false,
@@ -1070,12 +1113,12 @@ const ALL_UNITS_DATA = [
             {
                 url: "https://apclassroom.collegeboard.org/d/5cjfnynb4w?sui=33,5",
                 altUrl: "https://drive.google.com/file/d/1HVGa0OuHML6pHhGdp4UOln6oncX3n53_/view?usp=drive_link",
-                completed: false,
-                completionDate: null
-            }
+            completed: false,
+            completionDate: null
+          }
         ],
         quizzes: [
-            {
+          {
                 questionPdf: "pdfs/unit5/5.2_quiz.pdf",
                 answersPdf: "pdfs/unit5/5.2_answers.pdf",
                 quizId: "5-2_q1",
