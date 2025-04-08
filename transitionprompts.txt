@@ -1,0 +1,14 @@
+
+Do not modify allUnitsData.js.
+
+Take a look at ALL_UNITS_DATA array @allUnitsData.js   and create a snippet  where the old refernces to the pdf's are replaced with the new standardized filenames.@ls-output.txt 
+
+Do not modify allUnitsData.js.
+
+
+
+@index.html  is based on unit1 material, but the material we have is for unit 3.  @knowledge-tree.md 
+
+Please replace all references of Unit 1 to Unit3.
+
+Unit 3's AP exam weight is 12-15%
